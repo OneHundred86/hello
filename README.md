@@ -37,13 +37,16 @@ go run cmd/hello/*.go -name jack -cnt 2
 #### 1. Install code
 
 ```bash
-go get github.com/OneHundred86/hello@latest
+
+go get github.com/OneHundred86/hello
+
 ```
 
 #### 2. Install cmd
 
 ```bash
-go install github.com/OneHundred86/hello/cmd/hello@latest
+# 安装到 $GOPATH/bin 目录
+go install github.com/OneHundred86/hello/cmd/hello
 
 
 ```
